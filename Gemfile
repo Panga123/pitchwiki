@@ -41,7 +41,6 @@ gem 'devise'
 # gem 'activeadmin', '~> 1.0.0.pre4'
 # Gemfile
 gem 'activeadmin'
-gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
 
 group :development, :test do
@@ -72,6 +71,7 @@ group :test do
 end
 
 gem 'jquery-rails'
+gem 'jquery-ui-rails', '~> 5.0.5'
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
