@@ -41,6 +41,7 @@ gem 'devise'
 # gem 'activeadmin', '~> 1.0.0.pre4'
 # Gemfile
 gem 'activeadmin'
+# gem 'active_admin_role'
 
 
 group :development, :test do
